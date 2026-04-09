@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>MC Studio macOS — 启动中</title>
+  <style>
+    body {
+      margin: 0; background: #0f0f23; color: #e0e0ff;
+      font-family: -apple-system, sans-serif;
+      display: flex; align-items: center; justify-content: center;
+      height: 100vh; flex-direction: column; gap: 16px;
+    }
+    h1 { font-size: 24px; color: #7c5cfc; }
+    p { color: #888; font-size: 14px; }
+    .spinner { width: 32px; height: 32px; border: 3px solid #333; border-top-color: #7c5cfc; border-radius: 50%; animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    button { background: #7c5cfc; border: none; color: white; padding: 10px 24px; border-radius: 8px; cursor: pointer; font-size: 14px; }
+    button:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <div class="spinner"></div>
+  <h1>MC Studio macOS</h1>
+  <p>等待 Vite 开发服务器启动...</p>
+  <p style="font-size:12px;color:#555">请确保已运行: npm run dev (端口 5174)</p>
+  <button onclick="location.reload()">重试连接</button>
+</body>
+</html>
