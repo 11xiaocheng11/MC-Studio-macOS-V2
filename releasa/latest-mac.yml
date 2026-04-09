@@ -1,0 +1,8 @@
+version: 1.1.0
+files:
+  - url: MC-Studio-macOS-1.1.0-universal.dmg
+    sha512: /C1Cyy2PWy/yEtzuuilNG9UgU8Da10cz3nxMKSWj5q02sSoZXh1txlNhV5UVbJlrDr0Gvqs6V/ugf8adQPSK5A==
+    size: 206152425
+path: MC-Studio-macOS-1.1.0-universal.dmg
+sha512: /C1Cyy2PWy/yEtzuuilNG9UgU8Da10cz3nxMKSWj5q02sSoZXh1txlNhV5UVbJlrDr0Gvqs6V/ugf8adQPSK5A==
+releaseDate: '2026-04-09T12:34:01.676Z'
